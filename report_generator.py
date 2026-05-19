@@ -23,6 +23,7 @@ def student_report(name, frontend, design, backend):
         'name':name,
         'frontend':frontend,
         'design':design,
+        'backend':backend,
         'average':average,
         'grade':grade,
 
