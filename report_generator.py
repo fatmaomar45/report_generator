@@ -3,7 +3,7 @@ def calculate_average (backend,frontend,design):
     return (backend+frontend+design)/3
 
     
-def get_avarage_marks(average):
+def get_average_marks(average):
     if(average>=80):
         return("A")
     elif(average>=70):
@@ -18,7 +18,7 @@ def get_avarage_marks(average):
 
 def student_report(name, frontend, design, backend):
     average=calculate_average(backend,frontend,design)
-    grade=get_avarage_marks(average)
+    grade=get_average_marks(average)
     return {
         'name':name,
         'frontend':frontend,
